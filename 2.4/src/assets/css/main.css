@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+
+body {
+  @apply bg-gray-300;
+}
+
+.btn {
+    @apply p-2 font-bold bg-gray-400 text-gray-600 rounded;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-600 text-gray-200;
+  }
+  
+  .btn-danger {
+    @apply bg-red-600 text-gray-200;
+  }
+
+
+@tailwind utilities;
+
